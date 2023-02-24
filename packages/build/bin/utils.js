@@ -22,7 +22,7 @@ function getRootDir() {
  * Get the root directory of the npm package
  */
 function getPackageDir() {
-  return process.cwd();
+  return path.resolve(__dirname, '../../../..');
 }
 
 /**
